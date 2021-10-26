@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 173 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-112.445,-1325.06)">
+        <g id="Prancheta1" transform="matrix(0.134588,0,0,0.276319,112.445,1325.06)">
+            <rect x="0" y="0" width="1280" height="720" style="fill:none;"/>
+            <g transform="matrix(7.43009,0,0,3.61901,-9426.84,-4389.95)">
+                <path d="M1354.87,1215L1439.31,1263.75L1439.31,1361.25L1354.87,1410L1270.44,1361.25L1270.44,1263.75L1354.87,1215ZM1354.87,1229.28L1426.94,1270.89L1426.94,1354.11L1354.87,1395.72L1282.81,1354.11L1282.81,1270.89L1354.87,1229.28Z" style="fill:rgb(255,112,53);"/>
+            </g>
+        </g>
+    </g>
+</svg>

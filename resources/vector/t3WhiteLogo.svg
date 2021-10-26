@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 291 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-77,-940)">
+        <g id="Prancheta1" transform="matrix(0.227344,0,0,0.0737687,77,940)">
+            <rect x="0" y="0" width="1280" height="720" style="fill:none;"/>
+            <g transform="matrix(2.46732,0,0,7.60391,-94.5077,-112.009)">
+                <text x="148px" y="106.421px" style="font-family:'Heebo-Bold', 'Heebo';font-weight:700;font-size:115.123px;fill:white;">T3</text>
+                <text x="314.445px" y="106.421px" style="font-family:'Heebo-Bold', 'Heebo';font-weight:700;font-size:115.123px;fill:white;">l<tspan x="351.061px 418.482px 489.051px " y="106.421px 106.421px 106.421px ">abs</tspan></text>
+            </g>
+            <g transform="matrix(2.67795,0,0,8.25303,-7.54958,-828.764)">
+                <path d="M32,114L52,147" style="fill:none;stroke:white;stroke-width:8.21px;"/>
+            </g>
+            <g transform="matrix(3.28895,0,-1.82826,9.65897,291.359,-1059.55)">
+                <path d="M73,151.311C73,150.424 72.395,149.329 71.413,148.439C70.431,147.549 69.222,147 68.244,147C59.057,147 39.273,147 33.569,147C32.597,147 32,147.542 32,148.422C32,153.46 32,170.589 32,178.689C32,179.576 32.605,180.671 33.587,181.561C34.569,182.451 35.778,183 36.756,183C45.943,183 65.727,183 71.431,183C72.403,183 73,182.458 73,181.578C73,176.54 73,159.411 73,151.311Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(2.67795,0,0,8.25303,-7.54958,-828.764)">
+                <path d="M32,182L13,147L32,114L73,114L94,147" style="fill:none;stroke:white;stroke-width:8.21px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

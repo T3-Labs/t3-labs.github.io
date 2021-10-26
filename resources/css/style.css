@@ -1,0 +1,173 @@
+/* pallet 
+ color dark gray #4B4B4B
+*/
+/* Basic setup! */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: rgb(29, 29, 29);
+  font-family: "Heebo", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* Reusable components. */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5)),
+    url(img/t3Backgrownd01.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+span {
+  color: #ff7035;
+}
+
+.logoTop {
+  height: 15%;
+  width: 15%;
+  margin-top: 20px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 1.6vw;
+  transform: 0.6s;
+}
+
+.main-nav li a {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  transition: 0.5s;
+}
+
+.main-nav li a:hover {
+  color: #ff7035;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.caption {
+  font-size: 55%;
+  letter-spacing: 1px;
+  color: #ff7035;
+}
+
+/* Features */
+
+.section-features h2 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 250%;
+}
+
+.section-features h2:after {
+  display: block;
+  height: 1px;
+  background-color: #ff7035;
+  content: "";
+  width: 400px;
+  margin: 20px auto 0 auto;
+}
+
+.section-features {
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+
+.feature-card {
+  background-color: #fff;
+  border-radius: 2%;
+  border: none;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.grid {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.grid > article {
+  border: none;
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.grid > article:hover {
+  transform: translateY(10px);
+  box-shadow: 2px 2px 26px 0 rgba(0, 0, 0, 0.3);
+}
+
+.logo-features {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 40%;
+  width: 40%;
+  align-self: center;
+}
+
+.feature-card p {
+  font-size: 75%;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 0 10%;
+  margin-bottom: 10%;
+}
+
+.feature-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
