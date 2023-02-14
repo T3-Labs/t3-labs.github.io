@@ -91,7 +91,17 @@ span {
   color: #ff7035;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .hero-text-box {
+  animation: 2s ease-in 0s 1 fadeIn;
   position: absolute;
   width: 80%;
   top: 50%;
@@ -101,6 +111,8 @@ span {
   text-align: center;
   transform: translate(-50%, -50%);
 }
+
+
 
 .caption {
   font-size: 45%;
@@ -140,18 +152,27 @@ span {
 }
 
 .feature-card {
+  width: 300px;
+  height: 300px;
   background-color: #fff;
   border-radius: 2%;
   border: none;
   box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+  transition: 300ms ease-in-out;
+}
+
+.feature-card:hover{
+  border-radius: 30%;
+  box-shadow: 30px 30px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 .grid {
-  margin: 80px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-left: 30px;
+  padding: 80px 0;
 }
 
 .grid > article {
@@ -186,6 +207,7 @@ span {
 }
 
 .feature-card p {
+  margin-top: 20px;
   font-size: 75%;
   text-align: center;
   font-weight: 500;
