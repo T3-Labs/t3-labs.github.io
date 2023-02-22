@@ -126,7 +126,14 @@ span {
   font-size: 250%;
 }
 
-.section-features h2:after, .section-products h2:after{
+.section-free-softwere h2{
+  position: relative;
+  text-align: center;
+  top: 25px;
+  font-size: 250%;
+}
+
+.section-features h2:after, .section-products h2:after, .section-free-softwere h2:after{
   display: block;
   height: 1px;
   background-color: #ff7035;
@@ -269,7 +276,6 @@ span {
 .c-nav li a {
   display: block;
   padding: 8px;
-  text-align: center;
   text-decoration: none;
   color: white;
   font-weight: 300;
@@ -282,10 +288,13 @@ span {
 
 .contacts-conteiner{
   position: relative;
-  display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contacts-conteiner a{
+  
 }
 
 ul {
@@ -308,10 +317,9 @@ li a {
   text-decoration: none;
 }
 
-.section-free-softwere{
-  
+.section-free-softwere{  
   background: #ebebeb;
-  height: 400px;
+  height: 600px;
   width: 100vw;
 }
 
@@ -325,7 +333,7 @@ img{
 .free-softwere-card{
   position: relative;
   top: 50px;
-  margin-left: 22%;
+  margin-left: 23.5%;
   background-color: #fff;
   height: 300px;
   width: 1000px;
@@ -358,4 +366,18 @@ a{
 a:visited{
   color: #313131;
   text-decoration: none;
+}
+
+#textFS{
+  font-size: 90%;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+#faleC{
+ position: relative;
+ top: 30px;
+  text-align: center;
+  color: #ebebeb;
 }
