@@ -293,8 +293,8 @@ span {
   margin-right: auto;
 }
 
-.contacts-conteiner a{
-  
+.section-contacts{
+text-align: center;
 }
 
 ul {
@@ -302,19 +302,14 @@ ul {
   padding: 0;
   overflow: hidden;
   margin-top: 67px;
-
-}
-
-li {
-  float: left;
 }
 
 li a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
+  text-align: left;
 }
 
 .section-free-softwere{  
@@ -327,6 +322,17 @@ img{
   height: 250px;
   width: 500px;
   border-radius: 10px;
+}
+
+#contato1{
+  width: 30%;
+  float: left;
+}
+
+#contato2{
+  width: 30%;
+  float: right;
+  padding-left: 75px;
 }
 
 
